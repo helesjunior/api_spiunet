@@ -67,7 +67,7 @@ def run(link, user, pwd):
 
     driver = webdriver.Chrome()
     driver.get(link)
-    driver.switch_to_frame("Principal")
+    driver.switch_to.frame("Principal")
     driver.find_element_by_xpath(
         '/html/body/div[2]/table/tbody/tr[2]/td[1]/center/form/table/tbody/tr[1]/td[2]/font/input').send_keys(user)
     driver.find_element_by_xpath(
