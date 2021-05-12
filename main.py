@@ -1,3 +1,4 @@
+from collections import namedtuple
 from getpass import getpass
 from pathlib import Path
 
@@ -113,10 +114,10 @@ def acessa_rips_municipio(rips_urls, driver):
         dados[i]['identificacao'] = retorna_identificacao_imovel(driver)
         dados[i]['endereco'] = retorna_endereco_imovel(driver)
         dados[i]['terreno'] = retorna_dados_terreno_imovel(driver)
-        dados[i]['benfeitoria'] = retorna_benfeitoria_imovel(driver)
-        dados[i]['dados'] = retorna_dados_imovel(driver)
-        dados[i]['registro'] = retorna_registro_imovel(driver)
-        dados[i]['dados_complementares'] = dados_complementares_imovel(driver)
+        # dados[i]['benfeitoria'] = retorna_benfeitoria_imovel(driver)
+        # dados[i]['dados'] = retorna_dados_imovel(driver)
+        # dados[i]['registro'] = retorna_registro_imovel(driver)
+        # dados[i]['dados_complementares'] = dados_complementares_imovel(driver)
         # if url_current.find('Cons_Imovel.asp') != -1:
         # if url_current.find('Cons_Utilizacao.asp') != -1:
 

@@ -5,3 +5,4 @@ geckodriver.log
 errorLog.txt
 example.py
 database.ini
+/__pycache__
