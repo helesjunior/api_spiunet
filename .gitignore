@@ -4,3 +4,4 @@ models.py
 geckodriver.log
 errorLog.txt
 example.py
+database.ini
